@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 *main - Entry point
 *Description: Prints all alphabets from a-z
