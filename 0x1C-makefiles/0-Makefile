@@ -1,0 +1,12 @@
+school: school.o main.o
+	gcc -o school school.o main.o
+
+school.o: school.c main.c  m.h
+	gcc -c school.c main.c  m.h
+
+all: school clean
+
+.PHONY: clean
+
+clean: 
+	rm *.o
